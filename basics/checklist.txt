@@ -1,0 +1,25 @@
+Hello World Program✅
+Print ASCII Value of a Character✅
+Simple Calculator✅
+Check Even or Odd Number✅
+Find the Largest of Two Numbers✅
+Find the Largest of Three Numbers✅
+Swap Two Numbers Without a Temporary Variable✅
+Check Leap Year✅
+Find the Sum of First N Natural Numbers✅
+Reverse a Number✅
+Find Factorial of a Number✅
+Generate Multiplication Table✅
+Find LCM of Two Numbers✅
+Find GCD of Two Numbers✅
+Count the Digits of a Number✅
+Find the Sum of Digits of a Number✅
+Check Prime Number✅
+Print Fibonacci Series✅
+Find the Power of a Number✅
+Check Palindrome Number✅
+Check Armstrong Number✅
+Convert Temperature (Celsius to Fahrenheit)✅
+Convert Decimal to Binary✅
+Convert Binary to Decimal✅
+Find the Largest and Smallest in an Array✅
