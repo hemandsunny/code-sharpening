@@ -3,6 +3,7 @@
 //reverse a string
 int manualOPS(char str1[]);
 int usingStringh(char str[],int l);
+int stringPalindrome(char str2[]);
 
 int main()
 {
@@ -14,6 +15,14 @@ int main()
     usingStringh(input_str,length);
     
     manualOPS(input_str);
+    if (stringPalindrome(input_str)==1)
+    {
+        printf("palindrome \n");
+    }
+    else
+    {
+        printf("not palindrome \n");
+    }
 }
 
 int usingStringh(char str[],int l)
@@ -51,6 +60,28 @@ int manualOPS(char str1[])
     }
     printf("2. %s\n",str1);
     return 0;
+
+
+}
+int stringPalindrome(char str2[])
+{
+    //string palindrome check
+    int l = 0;
+    while (str2[l] != '\0') {
+        l++;
+    }
+    int end = l - 1;
+    int start = 0;
+    while (start < end)
+    {
+        if (str2[start] != str2[end])
+        {
+            return 0;
+        }
+        start++;
+        end--;
+    }
+    return 1;
 
 
 }
